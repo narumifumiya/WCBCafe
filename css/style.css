@@ -107,3 +107,14 @@ img {
 #news .page-title {
   text-align: center;
 }
+
+/* footer */
+footer {
+  background: #432;
+  padding: 26px 0;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
