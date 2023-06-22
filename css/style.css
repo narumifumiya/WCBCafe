@@ -118,7 +118,8 @@ img {
 
 /* 記事部分 */
 article {
-  width: 74%;
+  /*width: 74%;*/
+  width: 60%;
 }
 
 .post-info {
@@ -213,6 +214,15 @@ footer p {
   font-size: 0.875rem;
 }
 
+/* Ipad版 */
+@media (max-width: 900px) {
+  article {
+    width: 74%;
+  }
+  .ad {
+    display: none;
+  }
+}
 
 /* モバイル版 */
 @media (max-width: 600px) {
@@ -278,6 +288,10 @@ footer p {
 
   .post-title, .post-cat {
     margin-left: 80px;
+  }
+
+  .ad {
+    display: none;
   }
 
 }
