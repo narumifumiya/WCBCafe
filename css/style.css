@@ -212,3 +212,31 @@ footer p {
   color: #fff;
   font-size: 0.875rem;
 }
+
+
+/* モバイル版 */
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  /* header */
+  .main-nav {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .main-nav li {
+    margin: 0 20px;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* HOME */
+  .home-content {
+    margin-top: 20%;
+  }
+}
